@@ -1,5 +1,7 @@
 # RPiBrowser-resin.io
 
+This setup will start X window server and run Chromium browser opening the page that you will specify in the environmental variable `URL` on the Resin.io dashboard.
+
 ### Hardware you need:
 
  * [Raspberry-Pi 2](http://www.amazon.co.uk/dp/B00T2U7R7I)  
