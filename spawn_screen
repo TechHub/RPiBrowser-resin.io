@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#Libraries need a ldconfig
+
+ldconfig
+
+echo $URL > /usr/src/app/url.txt
+
+useradd -m pi
+
+gpasswd -a pi video
+
+cp /app/xinitrc /home/pi/.xinitrc;
+chown pi: /home/pi/.xinitrc
+
+su - pi -c startx &
