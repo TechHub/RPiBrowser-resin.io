@@ -20,3 +20,6 @@ Download the image for your device and follow the instruction to copy the image 
 Connect your RPi to the TV and turn it on, you will see Resin.io logo on the tv and a loading bar, that means that the device was correctly setup and it's booting correctly, now it's going to do some updates and later download your code into the device **make sure to not interrupt this operation**.
 
 In your dashboard you will see the device after it's online and it will start downloading your code.
+
+### Configuration
+Go to resin.io and find your Application. Go into "Environment Variables". Set an ENV var with URL and use the URL that you want as the default URL. Then click "Show redefines", it might only show up after you've added more devices. Here you can set URL overrides that apply for specific devices.
